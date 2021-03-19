@@ -1,2 +1,2 @@
-# dentist-website
+# Dentist Website.
 🦷 Sample dentist website.
