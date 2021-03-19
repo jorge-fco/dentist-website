@@ -1,6 +1,27 @@
 # Dentist Website.
 🦷 Sample dentist website.
 
+### 📦 Architecture.
+- Home
+- Services
+- About
+- Contact
+- Faq
+- Error 404
+- Privacy
+- Terms
+
+### 🖌 Fonts.
+
+### 🖍 Colors.
+
+### Information.
+- Phone
+- Email
+- Schedule
+- Location
+- Social media
+
 ### ✏️ Features.
 - Schedule appointments
 - About us
@@ -8,7 +29,12 @@
 - Team of dentists
 - Schedule
 - Contact
+- WhatsApp Business
 - Payment Methods
+
+### Resources.
+- https://htmlreference.io/
+- https://cssreference.io/
 
 ### 📌 Inspiration.
 - https://eonia-template.webflow.io/
