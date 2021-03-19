@@ -15,7 +15,7 @@
 
 ### 🖍 Colors.
 
-### Information.
+### 📚 Information.
 - Phone
 - Email
 - Schedule
@@ -32,7 +32,7 @@
 - WhatsApp Business
 - Payment Methods
 
-### Resources.
+### 📎 Resources.
 - https://htmlreference.io/
 - https://cssreference.io/
 
