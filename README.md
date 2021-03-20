@@ -12,8 +12,15 @@
 - Terms
 
 ### 🖌 Fonts.
+- font-family: 'Marcellus', serif;
+- font-family: 'Manrope', sans-serif;
 
 ### 🖍 Colors.
+- color-primary:		#182E7D;
+- color-secundary:	#00DDF4;
+- color-text:			#212121;
+- color-text-light:	#737373;
+- color-text-black:	#000000;
 
 ### 📚 Information.
 - Phone
@@ -35,8 +42,10 @@
 ### 📎 Resources.
 - https://htmlreference.io/
 - https://cssreference.io/
+- [minireset.css](https://github.com/jgthms/minireset.css)
 
 ### 📌 Inspiration.
+- https://www.onemedical.com/
 - https://eonia-template.webflow.io/
 - https://lectio-course-template.webflow.io/
 - https://elearn-template.webflow.io/

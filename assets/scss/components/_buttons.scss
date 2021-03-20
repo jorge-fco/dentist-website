@@ -1,0 +1,60 @@
+.button{
+	@include text;
+	display: inline-block;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding: 0.8rem 1rem;
+	font-size: 1rem;
+	border-radius: .25rem;
+	@include transition(0.3s);
+}
+
+.button-primary{
+	@include text-bold;
+	color: white;
+	border-radius: 36px;
+	letter-spacing: 0.06rem;
+	padding: 0.8rem 1.8rem;
+	background-color: $color-primary;
+
+	&:hover{
+		color: $color-primary;
+		@include transition(0.3s);
+		background-color: $color-secundary;
+	}
+
+	i{
+		display: inline-block;
+		margin-right: 6px;
+		position: relative;
+	}
+}
+
+.button-secundary{
+	@include text-bold;
+	color: $color-primary;
+	border-radius: 36px;
+	letter-spacing: 0.06rem;
+	padding: 0.8rem 1.8rem;
+	background-color: $color-secundary;
+
+	&:hover{
+		color: white;
+		@include transition(0.3s);
+		background-color: $color-primary;
+	}
+
+	i{
+		display: inline-block;
+		margin-right: 6px;
+		position: relative;
+	}
+}

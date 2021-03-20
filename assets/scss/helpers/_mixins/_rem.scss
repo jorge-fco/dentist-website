@@ -1,0 +1,13 @@
+/*
+	* https://github.com/stubbornella/oocss
+	* Convert font-size from px to rem with px fallback
+	* https://github.com/stubbornella/oocss/blob/master/oocss/src/components/utils/_fontSize.scss
+*/
+
+//= Default font size on html element is 100%, equivalent to 16px;
+$base : 16px;
+
+@function calRem($size){
+	$rem: $size / $base;
+	@return #{$rem}rem;
+}

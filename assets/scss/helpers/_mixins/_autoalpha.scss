@@ -1,0 +1,9 @@
+@mixin autoAlpha($status) {
+	@if $status {
+		opacity: 0;
+		visibility: hidden;
+	} @else {
+		opacity: 1;
+		visibility: visible;
+	}
+}

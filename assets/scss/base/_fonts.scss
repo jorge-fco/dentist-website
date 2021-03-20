@@ -1,0 +1,31 @@
+@mixin title{
+	@include font-face($title, normal, 400);
+}
+
+@mixin title-bold{
+	@include font-face($title, normal, 400);
+}
+
+@mixin text{
+	@include font-face($text, normal, 400);
+}
+
+@mixin text-light{
+	@include font-face($text-light, normal, 300);
+}
+
+@mixin text-medium{
+	@include font-face($text, normal, 500);
+}
+
+@mixin text-bold{
+	@include font-face($text-bold, normal, 700);
+}
+
+@mixin text-serif{
+	@include font-face($text-serif, normal, 400);
+}
+
+@mixin text-mono{
+	@include font-face($text-mono, normal, 400);
+}

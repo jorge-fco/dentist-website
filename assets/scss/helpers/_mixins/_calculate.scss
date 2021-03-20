@@ -1,0 +1,27 @@
+/* =Calculate formula
+-----------------------------------------------------------------------------*/
+@function calculate($num, $viewport){
+	@return ($num * 100) / $viewport;
+}
+
+/* =Porcentaje
+-----------------------------------------------------------------------------*/
+@function percent($num, $limit){
+	@return calculate($num, $limit) * 1%;
+}
+
+/* =Size viewport width
+-----------------------------------------------------------------------------*/
+@function tvw($num, $viewport){
+	@return calculate($num, $viewport) * 1vw;
+}
+
+/* =Size viewport height
+-----------------------------------------------------------------------------*/
+@function tvh($var, $viewport){
+	@return calculate($var, $viewport) * 1vh;
+}
+
+@function psTr($ps){
+	@return ($ps / 1000) * 1em;
+}

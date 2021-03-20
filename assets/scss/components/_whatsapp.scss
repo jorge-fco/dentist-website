@@ -1,0 +1,21 @@
+.whatsapp__component{
+	left: 40px;
+	bottom: 40px;
+	position: fixed;
+	z-index: 50;
+
+	a{
+		display: inline-block;
+		position: relative;
+		text-decoration: none;
+
+		&:hover{
+			text-decoration: none;
+		}
+		svg{
+			width: 44px;
+			height: 44px;
+			position: relative;
+		}
+	}
+}

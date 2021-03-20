@@ -1,3 +1,13 @@
+assets/css/*
+assets/dist/*
+style-guide.php
+README.html
+prepros-6.config
+desktop.ini",
+prepros.config
+$RECYCLE.BIN
+prepros.cfg
+
 # Logs
 logs
 *.log

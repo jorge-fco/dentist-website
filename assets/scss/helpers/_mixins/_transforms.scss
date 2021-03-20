@@ -1,0 +1,9 @@
+// Position X
+@mixin transformX($num) {
+	transform: matrix(1, 0, 0, 1, $num, 0);
+}
+
+//Position Y
+@mixin transformY($num) {
+	transform: matrix(1, 0, 0, 1, 0,  $num);
+}

@@ -1,0 +1,3 @@
+@function calc($percent, $value) {
+	@return calc($percent - $value);
+}

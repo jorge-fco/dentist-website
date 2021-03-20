@@ -1,0 +1,14 @@
+//Position element X-Y
+@mixin center-align() {
+	transform: translateX(-50%) translateY(-50%);
+}
+
+//Position element Y
+@mixin vertical-align(){
+	transform: translateY(-50%);
+}
+
+//Position element X
+@mixin horizontal-align() {
+	transform: translateX(-50%);
+}

@@ -1,0 +1,4 @@
+@mixin delay($time) {
+	animation-delay: $time;
+	-webkit-animation-delay: $time;
+}

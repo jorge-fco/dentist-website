@@ -1,0 +1,11 @@
+@mixin before{
+	z-index: 5;
+}
+
+@mixin middle{
+	z-index: 15;
+}
+
+@mixin after{
+	z-index: 20;
+}
