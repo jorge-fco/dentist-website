@@ -1,31 +1,31 @@
 @mixin media($breakpoint...){
 
 	@if index($breakpoint, Small){
-		@media (min-width: 0px) and (max-width: 320px) {
+		@media (min-width: 576px) {
 			@content;
 		}
 	}
 
 	@if index($breakpoint, Mobile){
-		@media (min-width: 0px) and (max-width: 768px) {
+		@media (min-width: 768px) {
 			@content;
 		}
 	}
 
 	@if index($breakpoint, Tablet){
-		@media (min-width: 769px) and (max-width: 1024px) {
+		@media (min-width: 992px) {
 			@content;
 		}
 	}
 
 	@if index($breakpoint, Laptop){
-		@media (min-width: 1025px) and (max-width: 1366px) {
+		@media (min-width: 1200px) {
 			@content;
 		}
 	}
 
 	@if index($breakpoint, Desktop){
-		@media (min-width: 1367px) and (max-width: 1600px) {
+		@media (min-width: 1400px) {
 			@content;
 		}
 	}

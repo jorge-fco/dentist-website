@@ -281,6 +281,7 @@
 		position: relative;
 
 		label{
+			@include text;
 			color: $color-text;
 			text-transform: none;
 			margin-bottom: 1rem;

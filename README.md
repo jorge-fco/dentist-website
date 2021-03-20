@@ -39,6 +39,12 @@
 - WhatsApp Business
 - Payment Methods
 
+### Deploy.
+- Favicon.
+- Title.
+- Description.
+- Open Graph
+
 ### 📎 Resources.
 - [htmlreference.io](https://htmlreference.io/)
 - [cssreference.io](https://cssreference.io/)

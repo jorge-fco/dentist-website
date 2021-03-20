@@ -1,0 +1,180 @@
+.header{
+	width: 100%;
+	position: relative;
+}
+
+.header__banner{
+	width: 100%;
+	position: relative;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: $color-yellow;
+
+	span{
+		font-size: calRem(12px);
+		display: block;
+		position: relative;
+
+		i{
+			color: #068466;
+			margin-right: 4px;
+			position: relative;
+		}
+
+		strong{
+			@include text-bold;
+			color: $color-red;
+		}
+	}
+}
+
+.header__container{
+	@extend .layout;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.header__row{
+	@include flex-row();
+	align-items: center;
+}
+
+.header__logo{
+	width: 25%;
+	position: relative;
+
+	@include media(Tablet){
+		width: 33.33333%;
+	}
+
+	a{
+		@include title;
+		font-size: calRem(18px);
+		text-decoration: none;
+		display: inline-block;
+		position: relative;
+
+		@include media(Tablet){
+			font-size: calRem(20px);
+		}
+
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+
+.header__navigation{
+	width: calc(100% - 25%);
+
+	@include media(Tablet){
+		width: calc(100% - 33.33333%);
+	}
+
+	nav{
+		width: 100%;
+		position: relative;
+
+		ul{
+			width: 100%;
+			position: relative;
+			@include not-list();
+			@include flex-row();
+			align-items: center;
+			justify-content: flex-end;
+
+			li{
+				display: none;
+				position: relative;
+
+				@include media(Small){
+					display: none;
+				}
+				@include media(Mobile){
+					display: none;
+				}
+				@include media(Tablet){
+					display: block;
+				}
+				&.is-button{
+					display: block;
+
+					@include media(Small){
+						display: block;
+					}
+					@include media(Mobile){
+						display: block;
+					}
+				}
+				&.is-menu{
+					display: block;
+
+					@include media(Small){
+						display: block;
+					}
+					@include media(Mobile){
+						display: block;
+					}
+					@include media(Tablet){
+						display: none;
+					}
+				}
+
+				+ li{
+					margin-left: 15px;
+
+					@include media(Tablet){
+						margin-left: 35px;
+					}
+					@include media(Laptop){
+						margin-left: 45px;
+					}
+					@include media(Desktop){
+						margin-left: 65px;
+					}
+				}
+
+				a{
+					@include text-medium;
+					color: $color-text;
+					font-size: calRem(14px);
+					display: inline-block;
+					position: relative;
+					text-decoration: none;
+				}
+
+				button{
+					font-size: calRem(10px);
+					padding-top: 10px;
+					padding-bottom: 10px;
+					padding-left: 14px;
+					padding-right: 14px;
+
+					@include media(Mobile){
+						font-size: calRem(12px);
+						padding-top: 10px;
+						padding-bottom: 10px;
+						padding-left: 18px;
+						padding-right: 18px;
+					}
+					@include media(Tablet){
+						font-size: calRem(12px);
+						padding-top: 10px;
+						padding-bottom: 10px;
+						padding-left: 18px;
+						padding-right: 18px;
+					}
+
+					&.is-menu{
+						text-align: center;
+
+						i{
+							margin: 0px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
