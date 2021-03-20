@@ -1,0 +1,114 @@
+.home{
+	width: 100%;
+	position: relative;
+}
+
+.home__cover{
+	width: 100%;
+	position: relative;
+
+	@include media(Tablet){
+		height: 100vh;
+	}
+}
+
+.home__cover__thumb__top{
+	width: 33.33333%;
+	height: 0px;
+	top: 0px;
+	right: 0px;
+	@include before;
+	padding-top: 35%;
+	position: absolute;
+	overflow: hidden;
+	background-color: $color-accent;
+
+	figure{
+		@include full();
+
+		img{
+			width: 100%;
+		}
+	}
+}
+
+.home__cover__text{
+	width: 100%;
+	margin: 0 auto;
+	@include after;
+	position: relative;
+	padding-top: 8em;
+	padding-left: 8.33333%;
+	padding-right: 8.33333%;
+	text-align: center;
+	//background-color: red;
+
+	@include media(Tablet){
+		width: calc(100% - 16.66666%);
+	}
+
+	hgroup{
+		width: 100%;
+		position: relative;
+
+		h1{
+			font-size: 10vw;
+			letter-spacing: 0.05em;
+			margin-bottom: 1rem;
+
+			@include media(Tablet){
+				font-size: 6vw;
+			}
+		}
+
+		h2{
+			@include text;
+			color: $color-text-light;
+			font-size: 4vw;
+			line-height: 1.8;
+			position: relative;
+			margin-bottom: 35px;
+
+			@include media(Tablet){
+				font-size: 1.5vw;
+			}
+		}
+	}
+
+	button{
+		background-color: $color-pink;
+
+		&:hover{
+			color: $color-text;
+			background-color: $color-yellow;
+		}
+	}
+}
+
+.home__cover__thumb__bottom{
+	width: 33.33333%;
+	height: 0px;
+	bottom: 0px;
+	left: 0px;
+	@include before;
+	padding-top: 40%;
+	overflow: hidden;
+	position: relative;
+	margin-top: 4em;
+	background-color: $color-accent;
+
+	@include media(Tablet){
+		width: 25%;
+		margin: 0px;
+		padding-top: 35%;
+		position: absolute;
+	}
+
+	figure{
+		@include full();
+
+		img{
+			width: 100%;
+		}
+	}
+}
