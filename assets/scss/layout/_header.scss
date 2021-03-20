@@ -41,7 +41,7 @@
 }
 
 .header__logo{
-	width: 25%;
+	width: 33.33333%;
 	position: relative;
 
 	@include media(Tablet){
@@ -50,11 +50,17 @@
 
 	a{
 		@include title;
-		font-size: calRem(18px);
+		font-size: calRem(16px);
 		text-decoration: none;
 		display: inline-block;
 		position: relative;
 
+		@include media(Small){
+			font-size: calRem(18px);
+		}
+		@include media(Mobile){
+			font-size: calRem(20px);
+		}
 		@include media(Tablet){
 			font-size: calRem(20px);
 		}
@@ -66,7 +72,7 @@
 }
 
 .header__navigation{
-	width: calc(100% - 25%);
+	width: calc(100% - 33.33333%);
 
 	@include media(Tablet){
 		width: calc(100% - 33.33333%);
@@ -122,8 +128,11 @@
 				}
 
 				+ li{
-					margin-left: 15px;
+					margin-left: 10px;
 
+					@include media(Mobile){
+						margin-left: 25px;
+					}
 					@include media(Tablet){
 						margin-left: 35px;
 					}
@@ -146,10 +155,35 @@
 
 				button{
 					font-size: calRem(10px);
-					padding-top: 10px;
-					padding-bottom: 10px;
-					padding-left: 14px;
-					padding-right: 14px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+					padding-left: 12px;
+					padding-right: 12px;
+
+					i{
+						margin-right: 2px;
+
+						@include media(Mobile){
+							margin-right: 4px;
+						}
+					}
+
+					span{
+						&.is-mobile{
+							display: inline-block;
+
+							@include media(Tablet){
+								display: none;
+							}
+						}
+						&.is-desktop{
+							display: none;
+
+							@include media(Tablet){
+								display: inline-block;
+							}
+						}
+					}
 
 					@include media(Mobile){
 						font-size: calRem(12px);
@@ -159,7 +193,7 @@
 						padding-right: 18px;
 					}
 					@include media(Tablet){
-						font-size: calRem(12px);
+						font-size: calRem(14px);
 						padding-top: 10px;
 						padding-bottom: 10px;
 						padding-left: 18px;
