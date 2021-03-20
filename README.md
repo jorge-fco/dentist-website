@@ -40,15 +40,15 @@
 - Payment Methods
 
 ### 📎 Resources.
-- https://htmlreference.io/
-- https://cssreference.io/
+- [htmlreference.io](https://htmlreference.io/)
+- [cssreference.io](https://cssreference.io/)
 - [minireset.css](https://github.com/jgthms/minireset.css)
 
 ### 📌 Inspiration.
-- https://www.onemedical.com/
-- https://eonia-template.webflow.io/
-- https://lectio-course-template.webflow.io/
-- https://elearn-template.webflow.io/
-- https://clune-demo-es.squarespace.com/
-- https://almar-demo-es.squarespace.com/
-- https://namaste-template.webflow.io/
+- [www.onemedical.com](https://www.onemedical.com/)
+- [eonia-template.webflow.io](https://eonia-template.webflow.io/)
+- [lectio-course-template.webflow.io](https://lectio-course-template.webflow.io/)
+- [elearn-template.webflow.io](https://elearn-template.webflow.io/)
+- [clune-demo-es.squarespace.com](https://clune-demo-es.squarespace.com/)
+- [almar-demo-es.squarespace.com](https://almar-demo-es.squarespace.com/)
+- [namaste-template.webflow.io](https://namaste-template.webflow.io/)
