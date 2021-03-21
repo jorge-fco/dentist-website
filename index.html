@@ -65,7 +65,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 
 	<!--C S S-->
-	<link rel="stylesheet" href="assets/dist/main.min.css">
+	<link rel="stylesheet" href="assets/dist/main.min.css?v=0.01">
 </head>
 <body>
 	<!--HEADER-->
@@ -121,11 +121,12 @@
 	<!--HEADER-->
 
 	<main class="home">
+		<!--COVER-->
 		<section class="home__cover">
 			<!--IMAGE-->
 			<div class="home__cover__thumb__top">
-				<figure>
-					<img src="https://images.unsplash.com/photo-1520013573795-38516d2661e4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3207&q=80" alt="jorge-fco.com">
+				<figure class="bg-img">
+					<img itemprop="image" class="lazy" data-sizes="100w" data-src="https://images.unsplash.com/photo-1520013573795-38516d2661e4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3207&q=80" alt="jorge-fco.com">
 				</figure>
 			</div>
 			<!--IMAGE-->
@@ -146,16 +147,110 @@
 
 			<!--IMAGE-->
 			<div class="home__cover__thumb__bottom">
-				<figure>
-					<img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2100&q=80" alt="jorge-fco.com">
+				<figure class="bg-img">
+					<img itemprop="image" class="lazy" data-sizes="100w" data-src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2100&q=80" alt="jorge-fco.com">
 				</figure>
 			</div>
 			<!--IMAGE-->
+		</section>
+		<!--COVER-->
+
+		<!--INFORMATION-->
+		<section class="home__information">
+			<div class="layout">
+				<span><i class="fas fa-heart"></i>Este es tu lugar</span>
+				<p>Prueba una sesión gratuita para saber si es la opción adecuada.</p>
+			</div>
+		</section>
+		<!--INFORMATION-->
+
+		<section class="home__services">
+			<div class="layout">
+				<div class="home__services__title">
+					<span>¿Estas buscando mejorar tu salud dental?</span>
+					<h2>Servicios</h2>
+				</div>
+				<div class="home__services__row" role="row">
+
+					<!--ITEM-->
+					<div class="home__services__column">
+						<article class="home__services__item is-right">
+							<div class="home__services__item__thumb" role="thumb">
+								<figure class="bg-img">
+									<img itemprop="image" class="lazy" data-sizes="100w" data-src="https://images.unsplash.com/photo-1598531228433-d9f0cb960816?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80" alt="jorge-fco.com">
+								</figure>
+							</div>
+							<div class="home__services__item__text">
+								<span>Category</span>
+								<h4>This is Title</h4>
+								<data>$2,500 MXN</data>
+							</div>
+						</article>
+					</div>
+					<!--ITEM-->
+
+					<!--ITEM-->
+					<div class="home__services__column">
+						<article class="home__services__item">
+							<div class="home__services__item__thumb" role="thumb">
+								<figure class="bg-img">
+									<img itemprop="image" class="lazy" data-sizes="100w" data-src="https://images.unsplash.com/photo-1598256989809-394fa4f6cd26?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80" alt="jorge-fco.com">
+								</figure>
+							</div>
+							<div class="home__services__item__text">
+								<span>Category</span>
+								<h4>This is Title</h4>
+								<data>$2,500 MXN</data>
+							</div>
+						</article>
+					</div>
+					<!--ITEM-->
+
+					<!--ITEM-->
+					<div class="home__services__column">
+						<article class="home__services__item is-center">
+							<div class="home__services__item__thumb" role="thumb">
+								<figure class="bg-img">
+									<img itemprop="image" class="lazy" data-sizes="100w" data-src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1934&q=80" alt="jorge-fco.com">
+								</figure>
+							</div>
+							<div class="home__services__item__text">
+								<span>Category</span>
+								<h4>This is Title</h4>
+								<data>$2,500 MXN</data>
+							</div>
+						</article>
+					</div>
+					<!--ITEM-->
+
+					<!--ITEM-->
+					<div class="home__services__column">
+						<article class="home__services__item is-right">
+							<div class="home__services__item__thumb" role="thumb">
+								<figure class="bg-img">
+									<img itemprop="image" class="lazy" data-sizes="100w" data-src="https://images.unsplash.com/photo-1606811842243-af7e16970c1f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80" alt="jorge-fco.com">
+								</figure>
+							</div>
+							<div class="home__services__item__text">
+								<span>Category</span>
+								<h4>This is Title</h4>
+								<data>$2,500 MXN</data>
+							</div>
+						</article>
+					</div>
+					<!--ITEM-->
+				</div>
+			</div>
 		</section>
 	</main>
 
 	<footer class="footer">
 		
 	</footer>
+
+	<!--JAVASCRIPT-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="assets/dist/vendors.min.js?v=0.01" type="text/javascript" defer></script>
+	<script src="assets/dist/app.min.js?v=0.01" type="text/javascript" defer></script>
 </body>
 </html>
