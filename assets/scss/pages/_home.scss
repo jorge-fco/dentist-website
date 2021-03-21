@@ -248,6 +248,9 @@
 		@include media(Laptop){
 			font-size: calRem(64px);
 		}
+		@include media(Desktop){
+			font-size: calRem(74px);
+		}
 	}
 }
 
@@ -381,6 +384,9 @@
 		}
 		@include media(Laptop){
 			font-size: calRem(64px);
+		}
+		@include media(Desktop){
+			font-size: calRem(74px);
 		}
 	}
 }
