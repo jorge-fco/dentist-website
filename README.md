@@ -50,7 +50,7 @@
 - [htmlreference.io](https://htmlreference.io/)
 - [cssreference.io](https://cssreference.io/)
 - [minireset.css](https://github.com/jgthms/minireset.css)
-- Google Fonts
+- [Google Fonts](https://fonts.google.com/)
 
 ### 📌 Inspiration.
 - [lekhoa.com](https://lekhoa.com/)

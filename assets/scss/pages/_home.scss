@@ -351,13 +351,17 @@
 	padding-top: 6em;
 	padding-bottom: 6em;
 
-	@include media(Laptop){
+	@include media(Tablet){
 		padding-top: 8em;
 		padding-bottom: 8em;
 	}
-	@include media(Desktop){
+	@include media(Laptop){
 		padding-top: 10em;
 		padding-bottom: 10em;
+	}
+	@include media(Desktop){
+		padding-top: 12em;
+		padding-bottom: 12em;
 	}
 }
 
