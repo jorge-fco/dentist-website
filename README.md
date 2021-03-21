@@ -40,10 +40,11 @@
 - Payment Methods
 
 ### Deploy.
-- Favicon.
-- Title.
-- Description.
+- Favicon
+- Title
+- Description
 - Open Graph
+- Geo Location
 
 ### 📎 Resources.
 - [htmlreference.io](https://htmlreference.io/)
