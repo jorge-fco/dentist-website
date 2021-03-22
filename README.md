@@ -47,11 +47,15 @@
 - Open Graph
 - ✅ Geo Location
 - ✅ Canonical
-- Google Site Verification
+- ✅ Google Site Verification
 - Schema
 - Google Search Console
-- Goolgle Analytics
+- ✅ Goolgle Analytics
 - Google Tag Manager
+- Google PageSpeed
+- ✅ Sharing Debugger - Facebook for Developers
+- ✅ Card Validator - Twitter cards
+- ✅ Post Inspector - LinkedIn
 
 ### 📎 Resources.
 - [htmlreference.io](https://htmlreference.io/)
