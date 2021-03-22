@@ -39,7 +39,7 @@
 - WhatsApp Business
 - Payment Methods
 
-### Deploy.
+### 🚀 Deploy.
 - ✅ Favicon
 - ✅ Title
 - ✅ Description
@@ -52,7 +52,7 @@
 - ✅ Google Search Console
 - ✅ Goolgle Analytics
 - Google Tag Manager
-- Google PageSpeed
+- ✅ Google PageSpeed
 - ✅ Sharing Debugger - Facebook for Developers
 - ✅ Card Validator - Twitter cards
 - ✅ Post Inspector - LinkedIn
