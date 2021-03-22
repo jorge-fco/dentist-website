@@ -202,7 +202,10 @@
 			font-size: calRem(28px);
 		}
 		@include media(Laptop){
-			font-size: calRem(32px);
+			font-size: calRem(34px);
+		}
+		@include media(Desktop){
+			font-size: calRem(44px);
 		}
 	}
 }

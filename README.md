@@ -23,11 +23,11 @@
 - color-text-black:	#000000;
 
 ### 📚 Information.
-- Phone
-- Email
+- ✅ Phone
+- ✅ Email
 - Schedule
-- Location
-- Social media
+- ✅ Location
+- ✅ Social media
 
 ### ✏️ Features.
 - Schedule appointments
@@ -36,15 +36,15 @@
 - Team of dentists
 - Schedule
 - Contact
-- WhatsApp Business
-- Payment Methods
+- ✅ WhatsApp Business
+- ✅ Payment Methods
 
 ### Deploy.
 - Favicon
-- Title
+- ✅ Title
 - Description
 - Open Graph
-- Geo Location
+- ✅ Geo Location
 
 ### 📎 Resources.
 - [htmlreference.io](https://htmlreference.io/)
