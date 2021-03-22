@@ -25,7 +25,7 @@
 ### 📚 Information.
 - ✅ Phone
 - ✅ Email
-- Schedule
+- ✅ Schedule
 - ✅ Location
 - ✅ Social media
 
@@ -36,15 +36,22 @@
 - Team of dentists
 - Schedule
 - Contact
-- ✅ WhatsApp Business
-- ✅ Payment Methods
+- WhatsApp Business
+- Payment Methods
 
 ### Deploy.
-- Favicon
+- ✅ Favicon
 - ✅ Title
-- Description
+- ✅ Description
+- ✅ Image
 - Open Graph
 - ✅ Geo Location
+- ✅ Canonical
+- Google Site Verification
+- Schema
+- Google Search Console
+- Goolgle Analytics
+- Google Tag Manager
 
 ### 📎 Resources.
 - [htmlreference.io](https://htmlreference.io/)
@@ -61,3 +68,6 @@
 - [clune-demo-es.squarespace.com](https://clune-demo-es.squarespace.com/)
 - [almar-demo-es.squarespace.com](https://almar-demo-es.squarespace.com/)
 - [namaste-template.webflow.io](https://namaste-template.webflow.io/)
+- [Hello tend](https://www.instagram.com/hello_tend/)
+- [Tend Brand Identity](https://www.behance.net/gallery/93146323/Tend-Brand-Identity)
+
