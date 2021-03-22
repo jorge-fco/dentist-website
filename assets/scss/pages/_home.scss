@@ -48,6 +48,8 @@
 		@include full();
 
 		img{
+			width: 100%;
+			height: auto;
 			@include autoAlpha(true);
 		}
 	}
@@ -164,6 +166,8 @@
 		@include full();
 
 		img{
+			width: 100%;
+			height: auto;
 			@include autoAlpha(true);
 		}
 	}
@@ -304,6 +308,8 @@
 		@include middle;
 
 		img{
+			width: 100%;
+			height: auto;
 			@include autoAlpha(true);
 		}
 	}
@@ -473,6 +479,8 @@
 		@include full();
 
 		img{
+			width: 100%;
+			height: auto;
 			@include autoAlpha(true);
 		}
 	}
