@@ -44,12 +44,12 @@
 - ✅ Title
 - ✅ Description
 - ✅ Image
-- Open Graph
+- ✅ Open Graph
 - ✅ Geo Location
 - ✅ Canonical
 - ✅ Google Site Verification
 - Schema
-- Google Search Console
+- ✅ Google Search Console
 - ✅ Goolgle Analytics
 - Google Tag Manager
 - Google PageSpeed

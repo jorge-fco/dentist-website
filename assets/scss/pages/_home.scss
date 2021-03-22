@@ -296,14 +296,28 @@
 	position: relative;
 	padding-top: 80%;
 	overflow: hidden;
+	@include before;
 	background-color: $color-accent;
 
 	figure{
 		@include full();
+		@include middle;
 
 		img{
 			@include autoAlpha(true);
 		}
+	}
+}
+
+.home__services__item__loader{
+	@include full();
+	@include after;
+
+	&.is-blue{
+		background-color: $color-accent;
+	}
+	&.is-yellow{
+		background-color: $color-yellow;
 	}
 }
 
