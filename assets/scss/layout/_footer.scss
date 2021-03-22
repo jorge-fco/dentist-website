@@ -325,9 +325,14 @@
 }
 
 .footer__copyright__text{
-	width: 50%;
+	width: 100%;
 	position: relative;
-	text-align: left;
+	text-align: center;
+
+	@include media(Tablet){
+		width: 50%;
+		text-align: left;
+	}
 
 	p{
 		@include text-light;
@@ -339,9 +344,16 @@
 }
 
 .footer__copyright__developer{
-	width: 50%;
+	width: 100%;
 	position: relative;
-	text-align: right;
+	text-align: center;
+	margin-top: 25px;
+
+	@include media(Tablet){
+		width: 50%;
+		text-align: right;
+		margin-top: 0px;
+	}
 
 	p{
 		@include text-light;

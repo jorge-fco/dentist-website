@@ -1,21 +1,76 @@
 .whatsapp__component{
-	left: 40px;
-	bottom: 40px;
+	width: 100%;
+	max-width: 220px;
+	left: 20px;
+	bottom: 20px;
 	position: fixed;
 	z-index: 50;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #ECF8F5;
+	@include autoAlpha(true);
+	@include transition(0.3s);
+	box-shadow: 0px 20px 48px rgba(0,0,0, 0.10);
+
+	&.is-hidden{
+		opacity: 0 !important;
+		visibility: hidden !important;
+		@include transition(0.3s);
+	}
+
+	span{
+		color: $color-text;
+		font-size: calRem(12px);
+		display: block;
+		position: relative;
+		margin-bottom: 8px;
+		text-transform: none;
+	}
 
 	a{
-		display: inline-block;
-		position: relative;
+		@include text-bold;
+		color: #1ebea5;
+		font-size: calRem(14px);
 		text-decoration: none;
+		display: inline-block;
+		padding-bottom: 1px;
+		position: relative;
 
 		&:hover{
+			color: #1ebea5;
 			text-decoration: none;
+
+			&:before{
+				width: 100%;
+				@include transition(0.3s);
+			}
+			i{
+				color: #1ebea5;
+				@include transition(0.3s);
+			}
 		}
-		svg{
-			width: 44px;
-			height: 44px;
+
+		i{
+			color: #07E676;
+			margin-right: 2px;
 			position: relative;
+			@include transition(0.3s);
+		}
+
+		&:before{
+			content: '';
+			width: 0%;
+			height: 1px;
+			left: 0px;
+			bottom: 0px;
+			@include middle;
+			position: absolute;
+			@include transition(0.3s);
+			background-color:  #1ebea5;
 		}
 	}
 }

@@ -433,19 +433,23 @@
 }
 
 .home__about__thumb{
-	width: 65%;
+	width: 80%;
 	height: 0px;
 	border: 0px;
 	margin: 0 auto;
 	border-radius: 50%;
-	padding-top: 65%;
+	padding-top: 80%;
 	position: relative;
 	overflow: hidden;
 	background-color: $color-accent;
 
+	@include media(Mobile){
+		width: calc(100% - 25%);
+		padding-top: calc(100% - 25%);
+	}
 	@include media(Laptop){
-		width: 80%;
-		padding-top: 80%;
+		width: calc(100% - 16.66666%);
+		padding-top: calc(100% - 16.66666%);
 	}
 
 	figure{
