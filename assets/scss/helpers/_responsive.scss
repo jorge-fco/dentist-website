@@ -31,7 +31,7 @@
 	}
 
 	@if index($breakpoint, Full){
-		@media (min-width: 1601px) {
+		@media (min-width: 160px) {
 			@content;
 		}
 	}
