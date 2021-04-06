@@ -62,6 +62,7 @@
 - [cssreference.io](https://cssreference.io/)
 - [minireset.css](https://github.com/jgthms/minireset.css)
 - [Google Fonts](https://fonts.google.com/)
+- [Unsplash](https://unsplash.com/)
 
 ### 📌 Inspiration.
 - [lekhoa.com](https://lekhoa.com/)
@@ -74,4 +75,13 @@
 - [namaste-template.webflow.io](https://namaste-template.webflow.io/)
 - [Hello tend](https://www.instagram.com/hello_tend/)
 - [Tend Brand Identity](https://www.behance.net/gallery/93146323/Tend-Brand-Identity)
+
+### ✌🏼 Credits
+👨🏻‍💻 Design and Development by http://jorge-fco.com/
+
+We do things on the internet™
+
+Jorge Fco. – Software Engineer
+
+©2021 – www.jorge-fco.com
 
