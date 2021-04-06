@@ -77,7 +77,7 @@
 - [Tend Brand Identity](https://www.behance.net/gallery/93146323/Tend-Brand-Identity)
 
 ### ✌🏼 Credits
-👨🏻‍💻 Design and Development by http://jorge-fco.com/
+👨🏻‍💻 Design and Development by [@jorge-fco](http://jorge-fco.com/)
 
 We do things on the internet™
 
