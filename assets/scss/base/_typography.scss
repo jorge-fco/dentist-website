@@ -33,7 +33,7 @@ hgroup{
 }
 
 h1, h2, h3, h4, h5, h6{
-	@include title;
+	@include title-bold;
 	display: block;
 	margin-top: 0px;
 	position: relative;
@@ -101,6 +101,10 @@ p{
 	@include text;
 	margin-top: 0px;
 	position: relative;
+}
+
+label{
+	@include title;
 }
 
 strong{

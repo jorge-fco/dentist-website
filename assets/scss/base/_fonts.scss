@@ -3,7 +3,7 @@
 }
 
 @mixin title-bold{
-	@include font-face($title, normal, 400);
+	@include font-face($title, normal, 700);
 }
 
 @mixin text{

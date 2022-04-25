@@ -103,6 +103,7 @@
 				@include media(Tablet){
 					display: block;
 				}
+
 				&.is-button{
 					display: block;
 
@@ -113,6 +114,7 @@
 						display: block;
 					}
 				}
+
 				&.is-menu{
 					display: block;
 
@@ -151,6 +153,29 @@
 					display: inline-block;
 					position: relative;
 					text-decoration: none;
+
+					&:hover{
+						color: $color-primary;
+						text-decoration: none;
+
+						&:before{
+							width: 100%;
+							right: inherit;
+							left: 0px;
+							@include transition(0.3s);
+						}
+					}
+					&:before{
+						content: '';
+						width: 0%;
+						height: 1px;
+						right: 0px;
+						left: inherit;
+						bottom: 0px;
+						position: absolute;
+						@include transition(0.3s);
+						background-color: $color-primary;
+					}
 				}
 
 				button{

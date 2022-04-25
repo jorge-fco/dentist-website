@@ -3,11 +3,12 @@ assets/js/*
 style-guide.html
 README.html
 prepros-6.config
-desktop.ini",
+desktop.ini
 prepros.config
-$RECYCLE.BIN
 prepros.cfg
+_index.html
 _README.md
+*.pug
 
 # Logs
 logs
